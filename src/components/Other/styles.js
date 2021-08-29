@@ -59,7 +59,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const ImgWrap = styled.div` 
-  max-width: 350px;
+  max-width: 250px;
   height: 100%;
   align-items: center;
 `;

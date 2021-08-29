@@ -1,5 +1,5 @@
 import React from 'react';
-// import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect';
 import {
   HeaderWrapper,
   HeaderRow,
@@ -27,7 +27,7 @@ const Header = (props) => (
               <Heading lightText>Hi, </Heading>
               <Heading lightText>I&apos;m Annie</Heading>
               <TypeWrapper>
-                {/* <Typewriter
+                <Typewriter
                   options={{
                     delay: 40,
                   }}
@@ -35,9 +35,7 @@ const Header = (props) => (
                     typewriter.typeString('Nice to meet you! I\'m a developer and student at the University of Waterloo.')
                       .start();
                   }}
-                /> */}
-
-                  Nice to meet you! I'm a developer and student at the University of Waterloo.
+                />
               </TypeWrapper>
               <ButtonWrap>
                 <Button
