@@ -98,9 +98,11 @@ const Navbar = ({
           uncheckedIcon={null}
           checkedIcon={null}
           onChange={changeTheme}
-          offColor="#372e5b"
-          onColor="#e8d394"
+          offColor="#F2E9E4"
+          onColor="#FEF9F0"
           activeBoxShadow="0px"
+          onHandleColor="#C05749"
+          offHandleColor="#9CADBC"
           checked={theme === 'light'}
           checkedHandleIcon={(
             <div
@@ -109,7 +111,7 @@ const Navbar = ({
                 justifyContent: 'center',
                 alignItems: 'center',
                 height: '100%',
-                color: 'red',
+                color: '#FEF9F0',
                 fontSize: 18,
               }}
             >
@@ -124,6 +126,7 @@ const Navbar = ({
                 alignItems: 'center',
                 height: '100%',
                 fontSize: 20,
+                color: '#F2E9E4',
               }}
             >
               <HiMoon />

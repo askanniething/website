@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-  height: 1300px;
+  height: 1800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@ export const ProjectsContainer = styled.div`
   background: ${(props) => props.theme.mainColor};
   
   @media screen and (max-width: 768px) {
-    height: 2400px;
+    height: 3200px;
   }
   transition: 0.3s ease-in-out;
 `;

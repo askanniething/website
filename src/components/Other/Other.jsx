@@ -2,14 +2,15 @@
 import React from 'react';
 import img1 from '../../images/sewing.jpg';
 import {
-  AboutWrapper,
-  AboutRow,
+  OtherWrapper,
+  OtherRow,
   Column1,
   Column2,
   TextWrapper,
   ImgWrap,
   Img,
-  AboutContainer,
+  OtherContainer,
+  TopWrapper,
 } from './styles';
 import {
   Heading,
@@ -17,13 +18,15 @@ import {
 } from '../Common';
 
 const Other = (props) => (
-  <AboutContainer lightBg id="other">
-    <AboutWrapper>
-      <AboutRow>
+  <OtherContainer lightBg id="other">
+    <TopWrapper>
+      <Heading color={props.themeColor.textColor.toString()} style={{ }}> miscellaneous </Heading>
+    </TopWrapper>
+    <OtherWrapper>
+      <OtherRow>
         <Column1>
           <TextWrapper>
-            <Heading color={props.themeColor.textColor.toString()}>miscellaneous</Heading>
-            <Subtitle color={props.themeColor.textColor.toString()} maxWidth="780px">Outside of coding, I enjoy sewing, bookbinding and building miniatures. I’m also extremely passionate about literature, especially regarding classics and dark fantasy stories. I can always appreciate a good book with daring adventure and societal implications! </Subtitle>
+            <Subtitle color={props.themeColor.textColor.toString()} maxWidth="780px">Outside of programming, I enjoy sewing, bookbinding and building miniatures. I’m also extremely passionate about literature, especially regarding classics and dark fantasy stories. I can always appreciate a good book with daring adventure and societal implications! </Subtitle>
           </TextWrapper>
         </Column1>
         <Column2>
@@ -31,8 +34,9 @@ const Other = (props) => (
             <Img src={img1} alt="Adf" />
           </ImgWrap>
         </Column2>
-      </AboutRow>
-    </AboutWrapper>
-  </AboutContainer>
+      </OtherRow>
+    </OtherWrapper>
+  </OtherContainer>
 );
+
 export default Other;

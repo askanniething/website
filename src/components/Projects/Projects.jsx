@@ -5,9 +5,12 @@ import {
   TopWrapper,
   OutsideWrap,
 } from './styles';
-import Img1 from '../../images/watchr.png';
-import Img2 from '../../images/taskeeper.png';
-import Img3 from '../../images/africaid.png';
+import Img1 from '../../images/watchr-min.png';
+import Img2 from '../../images/taskeeper-min.png';
+import Img3 from '../../images/africaid-min.png';
+import BA from '../../images/bonappletit-min.png'
+import Tuder from '../../images/tuder.png'
+import SewEasy from '../../images/seweasy.png'
 import Card from '../Card/Card';
 import { Heading } from '../Common';
 
@@ -28,7 +31,8 @@ const Projects = (props) => (
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
           borderColor={props.themeColor.textColor}
-          highlightColor={props.themeColor.lightColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
         />
       </OutsideWrap>
       <OutsideWrap right>
@@ -42,12 +46,13 @@ const Projects = (props) => (
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
           borderColor={props.themeColor.textColor}
-          highlightColor={props.themeColor.lightColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
         />
       </OutsideWrap>
       <OutsideWrap>
         <Card
-          title="Website"
+          title="Africaid"
           date="July 2020"
           technologies="HTML, CSS &amp; JS"
           description="A website and chrome extension combination that generates ad revenue for relevant charities.
@@ -57,7 +62,8 @@ const Projects = (props) => (
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
           borderColor={props.themeColor.textColor}
-          highlightColor={props.themeColor.lightColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
         />
       </OutsideWrap>
       <OutsideWrap right>
@@ -68,10 +74,46 @@ const Projects = (props) => (
           description="An interactive game with 3 levels designed to teach children about the importance of healthy eating.
           Coded using Java using the JavaFX libraries."
           website="https://github.com/askanniething/Bon-Appletit"
+          Pic={BA}
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
           borderColor={props.themeColor.textColor}
-          highlightColor={props.themeColor.lightColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
+        />
+      </OutsideWrap>
+      <OutsideWrap>
+        <Card
+          title="Tuder"
+          date="June 2020"
+          technologies="Java &amp; AndroidStudio"
+          description="An android application to bridge students and tutors during COVID-19.
+          Designed &amp; prototyped in Figma, coded in Java using AndroidStudio.
+          Awarded the 2020 Scripts Female Empowerment Award"
+          website="https://github.com/haleysong576/Tuder"
+          Pic={Tuder}
+          backColor={props.themeColor.darkColor}
+          textBackground={props.themeColor.mainColor}
+          borderColor={props.themeColor.textColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
+        />
+      </OutsideWrap>
+      <OutsideWrap right>
+        <Card
+          title="SewEasy"
+          date="August 2020"
+          technologies="React"
+          description="A web application that generates custom-fitted sewing patterns for users.
+          Deployed on Heroku.
+          Coded using React and CSS."
+          website="https://github.com/askanniething/SewEasy"
+          Pic={SewEasy}
+          backColor={props.themeColor.darkColor}
+          textBackground={props.themeColor.mainColor}
+          borderColor={props.themeColor.textColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
         />
       </OutsideWrap>
     </ProjectsWrapper>

@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export const ImgWrapper = styled.div`
   width: 100%;
-  background-color: grey;
+  background-color: ${(props) => props.lightColor};
   z-index: 1;
   overflow:hidden;
 `;
@@ -12,6 +12,11 @@ export const Img = styled.img`
   width: 100%;
   z-index: -1;
   transition: 0.3s ease-in-out;
+  min-height: 300px;
+
+  @media screen and (max-width: 1024px) {
+    min-height: 100px;
+  }
 `;
 
 export const TextWrapper = styled.div`

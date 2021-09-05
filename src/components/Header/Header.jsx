@@ -1,4 +1,5 @@
 import React from 'react';
+import Pdf from '../../images/sewing.jpg';
 import Typewriter from 'typewriter-effect';
 import {
   HeaderWrapper,
@@ -13,15 +14,15 @@ import {
   ButtonWrap,
   TypeWrapper,
 } from './styles';
-import img1 from '../../images/svg-1.svg';
-
+import dark from '../../images/darkImg-min.png';
+import light from '../../images/lightImg-min.png'
 import Button from '../Button/Button';
 
 const Header = (props) => (
   <>
     <HeaderContainer>
       <HeaderWrapper>
-        <HeaderRow imgStart>
+        <HeaderRow>
           <Column1>
             <TextWrapper>
               <Heading lightText>Hi, </Heading>
@@ -39,7 +40,7 @@ const Header = (props) => (
               </TypeWrapper>
               <ButtonWrap>
                 <Button
-                  link="https://www.github.com"
+                  link={Pdf}
                   aria="Annie Chen Resume"
                   newTab
                   width="150px"
@@ -54,7 +55,7 @@ const Header = (props) => (
           </Column1>
           <Column2>
             <ImgWrap>
-              <Img src={img1} />
+              <Img src={props.theme === 'light' ? light : dark} />
             </ImgWrap>
           </Column2>
         </HeaderRow>

@@ -103,7 +103,7 @@ export const Toggle = styled.button`
   width: 50px;   
   border-radius: 50%;
   border: none;
-  background-color: ${(props) => props.theme.titleColor};
+  background-color: ${(props) => props.theme.accentColor};
   color: ${(props) => props.theme.pageBackground};
   &:focus {
       outline: none;

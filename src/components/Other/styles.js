@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
-export const AboutContainer = styled.div`
+export const OtherContainer = styled.div`
   color: ${(props) => props.theme.textColor};
   background: ${(props) => props.theme.mainColor};
-  padding: 100px 0 ;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
   transition: 0.3s ease-in-out;
 `;
 
-export const AboutWrapper = styled.div`
+export const OtherWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 400px;
@@ -19,11 +24,11 @@ export const AboutWrapper = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    height: 760px;
+    height: 580px;
   }
 `;
 
-export const AboutRow = styled.div`
+export const OtherRow = styled.div`
   display: grid;
   grid-auto-columns: 1fr 2fr;
   align-items: center;
@@ -35,7 +40,7 @@ export const AboutRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  padding: 0 15px 0 30px;
+  padding: 0 15px 0 0px;
   grid-area: col1;
 
   @media screen and (max-width: 768px) {
@@ -44,12 +49,16 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
+  margin-bottom: 15px;
   padding: 0 30px 0 15px;
   grid-area: col2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -62,6 +71,10 @@ export const ImgWrap = styled.div`
   max-width: 250px;
   height: 100%;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    max-width: 350px;
+  }
 `;
 
 export const Img = styled.img`
@@ -69,7 +82,20 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
   background-color: lightblue;
-  border: 3px solid ${(props) => props.theme.textColor};;
+  border: 3px solid ${(props) => props.theme.textColor};
   border-radius: 20px;
   transition: 0.3s ease-in-out;
 `;
+
+export const TopWrapper = styled.div`
+  align-text: left;
+  width: 100%;
+  max-width: 1100px;
+  padding-left: 40px;
+  margin-bottom: -35px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
+`;
+

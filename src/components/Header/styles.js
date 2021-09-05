@@ -78,7 +78,6 @@ export const Column2 = styled.div`
   grid-area: col2;
 
   @media screen and (max-width: 768px) {
-    padding: 0 15px 0 15px;
     padding: 0 0 0 0;
   }
 `;
@@ -128,6 +127,7 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  transition: 0.3s ease-in-out;
 `;
 
 export const ButtonWrap = styled.section`

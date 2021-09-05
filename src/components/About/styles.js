@@ -30,7 +30,7 @@ export const AboutRow = styled.div`
   grid-template-areas: \'col1 col2\';
 
   @media screen and (max-width: 768px) {
-      grid-template-areas: \'col2 col2\' \'col1 col1\';
+    grid-template-areas: \'col2 col2\' \'col1 col1\';
   }
 `;
 
@@ -63,6 +63,10 @@ export const ImgWrap = styled.div`
   max-width: 250px;
   height: 100%;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    max-width: 350px;
+  }
 `;
 
 export const Img = styled.img`
@@ -70,7 +74,7 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
   background-color: lightblue;
-  border: 3px solid ${(props) => props.theme.textColor};
+  border: 3px solid ${(props) => props.theme.titleColor};
   border-radius: 20px;
   transition: 0.3s ease-in-out;
 `;
@@ -88,7 +92,7 @@ export const SocialIconLink = styled.a`
   transition: 0.3s ease-in-out;
 
   &:hover {
-    color: red;
+    color: ${(props) => props.theme.accentColor};
   }
 `;
 

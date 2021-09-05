@@ -28,7 +28,7 @@ const About = (props) => (
       <AboutRow>
         <Column1>
           <TextWrapper>
-            <Heading color={props.themeColor.textColor.toString()}>about me</Heading>
+            <Heading color={props.themeColor.titleColor.toString()}>about me</Heading>
             <Subtitle color={props.themeColor.textColor.toString()} maxWidth="780px">I am a developer interested in thinking outside of the box to create innovative and robust solutions. I have experience with multiple languages, including React, C, Java and JavaScript (ES6+). I am passionate about full-stack development, with a focus in human-computer interaction. Currently, I study Computer Science at the University of Waterloo. </Subtitle>
           </TextWrapper>
           <Connect>connect with me at:</Connect>

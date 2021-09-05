@@ -6,21 +6,21 @@ import Home from './pages/Home';
 import Misc from './pages/Misc';
 
 const LightTheme = {
-  darkColor: '#FFEBC1',
+  darkColor: '#FFE4C0',
   mainColor: '#FFF5E1',
+  titleColor: '#352E1F',
   textColor: '#000000',
-  titleColor: '#dc658b',
-  tagLineColor: '#FFF5E1',
-  lightColor: '#FFFDF5',
+  accentColor: '#C05749',
+  lightColor: '#FEF9F0',
 };
 
 const DarkTheme = {
-  darkColor: '#002436',
+  darkColor: '#2B3F5B',
   mainColor: '#002436',
   textColor: '#F2E9E4',
-  titleColor: 'lightpink',
-  tagLineColor: '#002436',
-  lightColor: 'darkgrey',
+  titleColor: '#F1F1E6',
+  accentColor: '#A8C5DD',
+  lightColor: '#9CADBC',
 };
 
 const themes = {

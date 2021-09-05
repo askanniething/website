@@ -20,9 +20,10 @@ const Footer = () => (
           <br />
           {' '}
           &copy;
+          {' '}
           {new Date().getFullYear()}
           {' '}
-          All rights Reserved
+          All rights reserved
         </WebsiteRights>
         <SocialIcons>
           <SocialIconLink

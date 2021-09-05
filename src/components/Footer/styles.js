@@ -76,12 +76,12 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: ${(props) => props.theme.textColor};;
+  color: ${(props) => props.theme.textColor};
   font-size: 30px;
   transition: 0.3s ease-in-out;
 
   &:hover {
-    color: red;
+    color: ${(props) => props.theme.accentColor};
   }
   transition: 0.3s ease-in-out;
 `;
