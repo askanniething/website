@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../../images/sewing.jpg';
+import Pdf from '../../images/AnnieChen_Resume.pdf';
 import Typewriter from 'typewriter-effect';
 import {
   HeaderWrapper,
@@ -14,8 +14,8 @@ import {
   ButtonWrap,
   TypeWrapper,
 } from './styles';
-import dark from '../../images/darkImg-min.png';
-import light from '../../images/lightImg-min.png'
+import dark from '../../images/drk.jpg';
+import light from '../../images/lght.jpg'
 import Button from '../Button/Button';
 
 const Header = (props) => (

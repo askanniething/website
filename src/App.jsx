@@ -12,6 +12,7 @@ const LightTheme = {
   textColor: '#000000',
   accentColor: '#C05749',
   lightColor: '#FEF9F0',
+  backgroundColor: '#FEF9F0'
 };
 
 const DarkTheme = {
@@ -21,6 +22,7 @@ const DarkTheme = {
   titleColor: '#F1F1E6',
   accentColor: '#A8C5DD',
   lightColor: '#9CADBC',
+  backgroundColor: '#FEF9F0'
 };
 
 const themes = {

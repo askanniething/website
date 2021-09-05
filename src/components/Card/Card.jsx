@@ -19,7 +19,7 @@ import {
 
 const Card = ({
   title, date, technologies, description, website, Pic, backColor,
-  textBackground, borderColor, titleColor, highlightColor,
+  textBackground, borderColor, titleColor, highlightColor, backgroundColor
 }) => (
   <Wrapper
     href={website}
@@ -27,7 +27,7 @@ const Card = ({
   >
     <BackCard backColor={backColor} textColor={borderColor} />
     <FrontCard textBackground={textBackground} textColor={borderColor}>
-      <ImgWrapper>
+      <ImgWrapper color={backgroundColor}>
         <Img src={Pic} />
       </ImgWrapper>
       <TextWrapper textBackground={textBackground} textColor={borderColor}>

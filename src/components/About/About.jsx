@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
-import img1 from '../../images/profile.jpg';
+import img1 from '../../images/profile-min.jpg';
 import {
   AboutWrapper,
   AboutRow,

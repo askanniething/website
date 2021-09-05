@@ -5,12 +5,20 @@ import {
   TopWrapper,
   OutsideWrap,
 } from './styles';
-import Img1 from '../../images/watchr-min.png';
-import Img2 from '../../images/taskeeper-min.png';
-import Img3 from '../../images/africaid-min.png';
-import BA from '../../images/bonappletit-min.png'
-import Tuder from '../../images/tuder.png'
-import SewEasy from '../../images/seweasy.png'
+// import Img1 from '../../images/watchr-min.png';
+// import Img2 from '../../images/taskeeper-min.png';
+// import Img3 from '../../images/africaid-min.png';
+// import BA from '../../images/bonappletit-min.png'
+// import Tuder from '../../images/tuder.png'
+// import SewEasy from '../../images/seweasy.png'
+
+import Img1 from '../../images/watc.jpg';
+import Img2 from '../../images/tsk.jpg';
+import Img3 from '../../images/afr.jpg';
+import BA from '../../images/ba.jpg';
+import Tuder from '../../images/tud.jpg';
+import SewEasy from '../../images/se.jpg';
+
 import Card from '../Card/Card';
 import { Heading } from '../Common';
 
@@ -33,6 +41,7 @@ const Projects = (props) => (
           borderColor={props.themeColor.textColor}
           titleColor={props.themeColor.titleColor}
           highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
       <OutsideWrap right>
@@ -48,6 +57,7 @@ const Projects = (props) => (
           borderColor={props.themeColor.textColor}
           titleColor={props.themeColor.titleColor}
           highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
       <OutsideWrap>
@@ -64,6 +74,7 @@ const Projects = (props) => (
           borderColor={props.themeColor.textColor}
           titleColor={props.themeColor.titleColor}
           highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
       <OutsideWrap right>
@@ -80,6 +91,7 @@ const Projects = (props) => (
           borderColor={props.themeColor.textColor}
           titleColor={props.themeColor.titleColor}
           highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
       <OutsideWrap>
@@ -97,6 +109,7 @@ const Projects = (props) => (
           borderColor={props.themeColor.textColor}
           titleColor={props.themeColor.titleColor}
           highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
       <OutsideWrap right>
@@ -114,6 +127,7 @@ const Projects = (props) => (
           borderColor={props.themeColor.textColor}
           titleColor={props.themeColor.titleColor}
           highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
     </ProjectsWrapper>

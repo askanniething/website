@@ -3,9 +3,10 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export const ImgWrapper = styled.div`
   width: 100%;
-  background-color: ${(props) => props.lightColor};
+  background-color: ${(props) => props.color};
   z-index: 1;
   overflow:hidden;
+  transition: 0.3s ease-in-out;
 `;
 
 export const Img = styled.img`

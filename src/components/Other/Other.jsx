@@ -26,7 +26,7 @@ const Other = (props) => (
       <OtherRow>
         <Column1>
           <TextWrapper>
-            <Subtitle color={props.themeColor.textColor.toString()} maxWidth="780px">Outside of programming, I enjoy sewing, bookbinding and building miniatures. I’m also extremely passionate about literature, especially regarding classics and dark fantasy stories. I can always appreciate a good book with daring adventure and societal implications! </Subtitle>
+            <Subtitle color={props.themeColor.textColor.toString()} maxWidth="780px">Outside of programming, I enjoy sewing, bookbinding and building miniatures. I’m also extremely passionate about literature, especially regarding classics and dark fantasy stories. I can always appreciate a good book with daring adventure! </Subtitle>
           </TextWrapper>
         </Column1>
         <Column2>

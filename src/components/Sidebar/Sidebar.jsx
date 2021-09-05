@@ -45,6 +45,11 @@ const Sidebar = ({
               uncheckedIcon={null}
               checkedIcon={null}
               onChange={changeTheme}
+              offColor="#F2E9E4"
+              onColor="#FEF9F0"
+              activeBoxShadow="0px"
+              onHandleColor="#C05749"
+              offHandleColor="#9CADBC"
               checked={theme === 'light'}
               checkedHandleIcon={(
                 <div
@@ -53,13 +58,13 @@ const Sidebar = ({
                     justifyContent: 'center',
                     alignItems: 'center',
                     height: '100%',
-                    color: 'red',
+                    color: '#FEF9F0',
                     fontSize: 18,
                   }}
                 >
                   <CgSun />
                 </div>
-            )}
+                )}
               uncheckedHandleIcon={(
                 <div
                   style={{
@@ -68,11 +73,12 @@ const Sidebar = ({
                     alignItems: 'center',
                     height: '100%',
                     fontSize: 20,
+                    color: '#F2E9E4',
                   }}
                 >
                   <HiMoon />
                 </div>
-            )}
+                )}
               className="react-switch"
             />
           </ToggleWrap>
