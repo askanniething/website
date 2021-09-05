@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-import img1 from '../../images/sewing.jpg';
+import img1 from '../../images/sewingpic.jpg';
 import {
   OtherWrapper,
   OtherRow,

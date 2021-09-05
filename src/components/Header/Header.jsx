@@ -14,8 +14,8 @@ import {
   ButtonWrap,
   TypeWrapper,
 } from './styles';
-import dark from '../../images/drk.jpg';
-import light from '../../images/lght.jpg'
+import dark from '../../images/darkImg.jpg';
+import light from '../../images/lightImg.jpg'
 import Button from '../Button/Button';
 
 const Header = (props) => (
