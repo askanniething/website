@@ -34,7 +34,7 @@ const Projects = (props) => (
           date="August 2021"
           technologies="React &amp; Electron"
           description="An Electron app to record live web events when users are away. Allows users to select a recording time and automatically saves the file to a computer directory. Built with a React frontend. "
-          website="https://github.com/Lanxyuu/Watchr"
+          website="https://github.com/askanniething/Watchr"
           Pic={Img1}
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
@@ -51,7 +51,7 @@ const Projects = (props) => (
           technologies="React, Node.js &amp; Express.js"
           description="A project-based calendar app for students to organize tasks based on hierarchy. The React front-end communicates with a Node.js &amp; Express.js REST API to access data in a MongoDB cloud database. Authentication handled through Passport.js. "
           Pic={Img2}
-          website="https://github.com/haritkapadia/taskeeper"
+          website="https://github.com/askanniething/taskeeper"
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
           borderColor={props.themeColor.textColor}

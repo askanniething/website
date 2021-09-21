@@ -33,7 +33,7 @@ const Header = (props) => (
                     delay: 40,
                   }}
                   onInit={(typewriter) => {
-                    typewriter.typeString('Nice to meet you! I\'m a developer and student at the University of Waterloo.')
+                    typewriter.typeString('Nice to meet you! I\'m a developer and uWaterloo Computer Science student.')
                       .start();
                   }}
                 />
@@ -46,7 +46,7 @@ const Header = (props) => (
                   width="150px"
                   content="resumé"
                   backColor={props.themeColor.darkColor}
-                  frontColor={props.themeColor.textColor}
+                  frontColor={props.themeColor.mainColor}
                   textColor={props.themeColor.textColor}
                 />
               </ButtonWrap>

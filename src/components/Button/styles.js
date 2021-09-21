@@ -9,6 +9,7 @@ export const BackButton = styled.div`
   background-color: ${(props) => props.cardColor};
   border-radius: 4px;
   transition: 0.3s ease-in-out;
+  border: 3px solid ${(props) => props.color};
 `;
 
 export const Wrapper = styled.div`
@@ -31,7 +32,7 @@ export const FrontButton = styled.a`
   z-index: 9;
   overflow: hidden;
   margin: 5px 0 0 5px;
-  background-color: ${(props) => props.caddColor};
+  background-color: ${(props) => props.cardColor};
   border-radius: 4px;
   text-align: center;
   transition: transform cubic-bezier(0.7, 0, 0.2, 1);
