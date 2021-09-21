@@ -10,6 +10,7 @@ const Button = (props) => (
   >
     <BackButton
       cardColor={props.backColor}
+      color={props.textColor}
     />
     <FrontButton
       cardColor={props.frontColor}
