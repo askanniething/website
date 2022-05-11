@@ -5,19 +5,13 @@ import {
   TopWrapper,
   OutsideWrap,
 } from './styles';
-// import Img1 from '../../images/watchr-min.png';
-// import Img2 from '../../images/taskeeper-min.png';
-// import Img3 from '../../images/africaid-min.png';
-// import BA from '../../images/bonappletit-min.png'
-// import Tuder from '../../images/tuder.png'
-// import SewEasy from '../../images/seweasy.png'
 
 import Img1 from '../../images/watc.jpg';
 import Img2 from '../../images/tsk.jpg';
 import Img3 from '../../images/afr.jpg';
 import BA from '../../images/ba.jpg';
 import Tuder from '../../images/tud.jpg';
-import SewEasy from '../../images/se.jpg';
+import SewEasy from '../../images/rite.png';
 
 import Card from '../Card/Card';
 import { Heading } from '../Common';
@@ -28,7 +22,23 @@ const Projects = (props) => (
       <Heading color={props.themeColor.textColor.toString()} style={{ marginBottom: '0' }}> projects </Heading>
     </TopWrapper>
     <ProjectsWrapper>
-      <OutsideWrap>
+    <OutsideWrap>
+        <Card
+          title="RiteReview"
+          date="April 2022"
+          technologies="MERN Stack &amp; Passport.js"
+          description="A book tracker web app to record and display book reviews and ratings. Integrated with Google Books API and GoogleOAuth2.0 (Passport.js) for user security."
+          website="https://github.com/askanniething/RiteReview"
+          Pic={SewEasy}
+          backColor={props.themeColor.darkColor}
+          textBackground={props.themeColor.mainColor}
+          borderColor={props.themeColor.textColor}
+          titleColor={props.themeColor.titleColor}
+          highlightColor={props.themeColor.accentColor}
+          backgroundColor={props.themeColor.backgroundColor}
+        />
+      </OutsideWrap>
+      <OutsideWrap right>
         <Card
           title="Watchr"
           date="August 2021"
@@ -44,7 +54,7 @@ const Projects = (props) => (
           backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
-      <OutsideWrap right>
+      <OutsideWrap>
         <Card
           title="Taskeeper"
           date="August 2021"
@@ -60,7 +70,7 @@ const Projects = (props) => (
           backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
-      <OutsideWrap>
+      <OutsideWrap right>
         <Card
           title="Africaid"
           date="July 2020"
@@ -77,7 +87,7 @@ const Projects = (props) => (
           backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
-      <OutsideWrap right>
+      <OutsideWrap>
         <Card
           title="Bon Appletit"
           date="July 2018"
@@ -94,7 +104,7 @@ const Projects = (props) => (
           backgroundColor={props.themeColor.backgroundColor}
         />
       </OutsideWrap>
-      <OutsideWrap>
+      <OutsideWrap right>
         <Card
           title="Tuder"
           date="June 2020"
@@ -104,24 +114,6 @@ const Projects = (props) => (
           Awarded the 2020 Scripts Female Empowerment Award"
           website="https://github.com/haleysong576/Tuder"
           Pic={Tuder}
-          backColor={props.themeColor.darkColor}
-          textBackground={props.themeColor.mainColor}
-          borderColor={props.themeColor.textColor}
-          titleColor={props.themeColor.titleColor}
-          highlightColor={props.themeColor.accentColor}
-          backgroundColor={props.themeColor.backgroundColor}
-        />
-      </OutsideWrap>
-      <OutsideWrap right>
-        <Card
-          title="SewEasy"
-          date="August 2020"
-          technologies="React"
-          description="A web application that generates custom-fitted sewing patterns for users.
-          Deployed on Heroku.
-          Coded using React and CSS."
-          website="https://github.com/askanniething/SewEasy"
-          Pic={SewEasy}
           backColor={props.themeColor.darkColor}
           textBackground={props.themeColor.mainColor}
           borderColor={props.themeColor.textColor}
